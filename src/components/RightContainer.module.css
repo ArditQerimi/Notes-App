@@ -1,0 +1,159 @@
+.rightcontainer {
+  width: 60%;
+  background-color: #200364;
+  padding: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .rightcontainer {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.mynotetitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.categorydate {
+  color: #fff;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.categorydate > * {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media screen and (max-width: 810px) {
+  .categorydate > * {
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .span {
+    font-weight: 400;
+    font-size: 17px;
+  }
+}
+
+.mynote {
+  height: 440px;
+  background-color: #e4d9fd;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #200364;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editbutton,
+.savebutton {
+  padding: 10px;
+  background-color: #a281f0;
+  border: 2px solid #a281f0;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #200364;
+  font-weight: 500;
+  font-size: 14px;
+  width: 30%;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.edittitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.transparent {
+  background-color: transparent;
+  color: white;
+}
+
+.editcategory {
+  display: flex;
+  align-items: center;
+}
+
+.editcategory > * {
+  margin-right: 5px;
+}
+
+.edittitletext {
+  display: flex;
+  align-items: center;
+}
+
+.mynotetitle {
+  display: flex;
+  align-items: center;
+}
+
+.mynotetitle > * {
+  margin-right: 5px;
+}
+
+.addnewnoteinput,
+.categoryinput {
+  padding: 10px;
+  border: 2px solid #a281f0;
+  border-radius: 10px;
+  width: 270px;
+  align-items: center;
+}
+
+.addnewnoteinput:focus,
+.categoryinput:focus,
+.mynoteinput:focus {
+  outline: none !important;
+  border: 2px solid #a281f0;
+}
+
+.mynoteinput {
+  height: 440px;
+  border: 2px solid #a281f0;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.nonotes {
+  height: 100%;
+  line-height: 540px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nonotestext {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}

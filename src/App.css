@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", cursive;
+}
+.containers {
+  display: flex;
+  /* padding-top: 3rem; */
+  /* padding-bottom: 3rem; */
+  background-color: #3e04c3;
+  padding: 15px;
+  /* height: 700px; */
+}
+
+.containers > * {
+  margin: 5px;
+}
+
+.leftcontainer {
+  width: 400px;
+  background-color: #200364;
+  margin-left: 1.5rem;
+  margin-right: 0.75rem;
+  padding: 10px;
+}
+
+.rightcontainer {
+  width: 1300px;
+  background-color: #200364;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+@media screen and (max-width: 800px) {
+  .containers {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+  }
+
+  .leftcontainer {
+    width: 100%;
+  }
+}

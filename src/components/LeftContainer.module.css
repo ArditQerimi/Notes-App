@@ -1,0 +1,226 @@
+.leftcontainer {
+  width: 40%;
+  background-color: #200364;
+  padding: 10px;
+}
+
+.searchcontainer {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  box-sizing: content-box;
+}
+
+.searchinput {
+  padding: 10px;
+  border: 2px solid #a281f0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 70%;
+  align-items: center;
+}
+
+.searchinput:focus {
+  outline: none !important;
+  border: 2px solid #a281f0;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.searchbutton {
+  padding: 10px;
+  background-color: #a281f0;
+  border: 2px solid #a281f0;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #200364;
+  font-weight: 500;
+  font-size: 14px;
+  width: 30%;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+textarea {
+  resize: none;
+}
+.allnotestitle,
+.addnewnotetitle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.notestitlecontainer {
+  padding: 0px 1px;
+  overflow-y: auto;
+  height: 150px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.notestitle {
+  width: 100%;
+  background-color: #e4d9fd;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcontainer {
+    width: 100%;
+  }
+}
+
+.addnotetitle {
+  border: 2px solid #a281f0;
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+}
+
+.addnewnote {
+  border: 2px solid #a281f0;
+  width: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: none;
+}
+.categoryinput {
+  border: 2px solid #a281f0;
+  width: 100%;
+  padding: 10px;
+  border-bottom: none;
+}
+
+.addnotetitle:focus,
+.addnewnote:focus,
+.categoryinput:focus {
+  outline: none !important;
+}
+
+.addnewnotebutton {
+  padding: 10px;
+  background-color: #a281f0;
+  border: 2px solid #a281f0;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #200364;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.notestitle {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  background-color: #e4d9fd;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+.notestitle:hover,
+.notestitle:active {
+  color: #000;
+}
+
+.rightcontainer {
+  width: 60%;
+  background-color: #200364;
+  padding: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .rightcontainer {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.mynotetitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.categorydate {
+  color: #fff;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.categorydate > * {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 860px) {
+  .categorydate > * {
+    padding-right: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    /* font-size: 14px; */
+  }
+
+  .span {
+    font-weight: 400;
+    /* font-size: 14px; */
+  }
+}
+
+.mynote {
+  height: 440px;
+  background-color: #e4d9fd;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editbutton {
+  padding: 10px;
+  background-color: #a281f0;
+  border: 2px solid #a281f0;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #200364;
+  font-weight: 500;
+  font-size: 14px;
+  width: 30%;
+  text-align: center;
+
+  box-sizing: content-box;
+}
